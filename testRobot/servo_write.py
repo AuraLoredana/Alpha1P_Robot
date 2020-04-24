@@ -21,7 +21,7 @@ while True:
         break
 
 # Powering off of all the servos (hex code)
-powering_off = hex(FBBF060C0012ED)
+powering_off = "FB BF 06 0C 00 12 ED"
 while True:
     robot.servo_write_all(powering_off)
     sleep(1)
