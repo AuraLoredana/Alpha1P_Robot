@@ -152,8 +152,7 @@ class Alpha1P:
     class Alpha1PBluetooth:
 
         """
-        Class to handle the Alpha1P' bluetooth protocol
-        Download Bluetooth protocol datasheet from
+        Class to handle the Alpha1P bluetooth protocol:
         http://downloads.ubtrobot.com/
         """
 
@@ -190,7 +189,6 @@ class Alpha1P:
         def read(self, msg, ans_len):
             """
             Use the write() function to send a command and receive its answer.
-
             Returns the 'Parameter' field in bytes if the message was received
             correctly, None otherwise.
             """
